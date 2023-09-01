@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS hr_movies_2;
+CREATE DATABASE hr_movies;
+
+DROP DATABASE IF EXISTS hr_movies_test_2;
+CREATE DATABASE hr_movies_test;
