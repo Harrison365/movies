@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
-const { getGenres } = require("./controllers/genreControllers");
+const { genresRouter } = require("./routes");
 
 app.use(express.json());
 
-app.get("/api/genres", getGenres);
+app.use("/api/genres", genresRouter);
 
 module.exports = app;
