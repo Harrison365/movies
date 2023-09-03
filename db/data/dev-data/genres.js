@@ -9,3 +9,5 @@ const genres = [
   { slug: "Action" },
   { slug: "Western" },
 ];
+
+module.exports = genres;
